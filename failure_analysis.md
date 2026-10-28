@@ -23,6 +23,24 @@ Oxford-IIIT Pet Dataset
 - Predicted breed: Basset Hound
 - Prediction score: 52.34%
 
+## Individual Image Review
+
+The experiment evaluated 20 selected images from the Oxford-IIIT Pet Dataset.
+Each image was checked by comparing the model's predicted breed with the actual breed label.
+
+- Correct predictions: 19 images
+- Incorrect predictions: 1 image
+- Overall sample accuracy: 95%
+
+The incorrect prediction was reviewed separately to identify a possible
+reason for the classification error. The remaining 19 images were correctly
+classified according to their dataset labels.
+
+A complete image-by-image review should record the image index, actual breed,
+predicted breed, prediction score, and whether the prediction was correct.
+The available summary does not contain all 20 individual prediction records,
+so those details should be taken from the experiment results rather than guessed.
+
 ## Possible Explanation
 The model may have confused the Beagle with the Basset Hound
 because of visual similarities. This is a hypothesis and requires
