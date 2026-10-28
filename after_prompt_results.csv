@@ -1,0 +1,21 @@
+Image Index,Actual Breed,Predicted Breed,Score (%),Correct
+2619,Ragdoll,Ragdoll,56.15,True
+456,beagle,beagle,93.88,True
+102,american bulldog,american bulldog,81.35,True
+3037,scottish terrier,scottish terrier,99.98,True
+1126,Egyptian Mau,Egyptian Mau,98.52,True
+1003,chihuahua,chihuahua,78.76,True
+914,British Shorthair,British Shorthair,92.23,True
+571,Bengal,Abyssinian,35.39,False
+3016,scottish terrier,scottish terrier,100.0,True
+419,beagle,beagle,67.01,True
+2771,Russian Blue,Russian Blue,85.45,True
+3033,scottish terrier,scottish terrier,98.24,True
+3654,yorkshire terrier,yorkshire terrier,98.74,True
+2233,newfoundland,newfoundland,89.61,True
+356,basset hound,basset hound,93.96,True
+2418,pomeranian,pomeranian,78.79,True
+1728,japanese chin,japanese chin,99.93,True
+130,american bulldog,american bulldog,84.8,True
+122,american bulldog,american bulldog,82.47,True
+383,basset hound,basset hound,96.75,True
