@@ -68,7 +68,12 @@ on this 20-image sample.
 - Prediction scores are relative to the candidate breed labels;
   they are not guaranteed to represent calibrated confidence.
 - The experiment does not establish overall dataset accuracy.
-
+- The experiment evaluated only 20 selected images from the Oxford-IIIT Pet Dataset.
+- The observed 95% accuracy applies only to this 20-image sample and does not represent the model's overall dataset accuracy.
+- The alternative prompt did not improve accuracy; both prompts achieved 19 correct predictions out of 20.
+- CLIP prediction scores are relative to the candidate breed labels and should not be interpreted as calibrated probabilities.
+- Some visually similar breeds may be misclassified because they share similar physical features.
+  
 ## Conclusion
 The model correctly classified 19 of the 20 selected images.
 Changing the prompt wording did not improve the measured accuracy.
