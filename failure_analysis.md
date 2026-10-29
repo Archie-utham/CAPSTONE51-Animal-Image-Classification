@@ -48,12 +48,19 @@ further image inspection to confirm.
 
 ## Prompt Improvement Experiment
 
-- Original prompt accuracy: 95%
-- Alternative prompt accuracy: 95%
+- Original prompt accuracy: 95% (19/20 correct)
+- Alternative prompt accuracy: 95% (19/20 correct)
 - Accuracy change: 0 percentage points
 
-The alternative prompt did not improve accuracy on this
-20-image sample.
+With the original prompt, image index 419 was incorrectly
+classified as Basset Hound instead of Beagle.
+
+With the alternative prompt, image index 571 was incorrectly
+classified as Abyssinian instead of Bengal.
+
+Although the incorrect prediction changed, the overall accuracy
+remained the same. The alternative prompt did not improve accuracy
+on this 20-image sample.
 
 ## Limitations
 - Only 20 test images were evaluated.
